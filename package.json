@@ -1,0 +1,43 @@
+{
+  "name": "crypto_exchange",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint .",
+    "react-android": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res && react-native run-android",
+    "clean:android": "cd android && ./gradlew clean && cd ../"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.17.10",
+    "@react-native-community/blur": "^4.2.0",
+    "@react-native-community/datetimepicker": "^6.3.2",
+    "@react-native-community/netinfo": "^9.3.0",
+    "@react-native-picker/picker": "^2.4.4",
+    "@react-navigation/drawer": "^6.4.4",
+    "@react-navigation/native-stack": "^6.8.0",
+    "expo": "~46.0.9",
+    "expo-splash-screen": "~0.16.2",
+    "expo-status-bar": "~1.4.0",
+    "nanoid": "^4.0.0",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "react-native": "0.69.5",
+    "react-native-app-intro-slider": "^4.0.4",
+    "react-native-gesture-handler": "^2.6.0",
+    "react-native-reanimated": "^2.10.0",
+    "react-native-snap-carousel": "^3.9.1",
+    "react-native-ui-lib": "^6.21.1",
+    "react-native-vector-icons": "^9.2.0",
+    "react-native-web": "~0.18.7",
+    "rn-fetch-blob": "^0.12.0",
+    "tailwind-rn": "^4.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9"
+  },
+  "private": true
+}
