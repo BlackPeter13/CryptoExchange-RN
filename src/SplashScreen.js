@@ -4,25 +4,6 @@ import AsyncStorage from "@react-native-async-storage/async-storage";
 import { isUserSignedIn } from "../controller/isUserSignedIn";
 
 const SplashScreen = ({ navigation }) => {
-  // login user
-  //   useEffect(() => {
-  //     Auth.currentAuthenticatedUser()
-  //       .then(user => {
-  //         setUserProfile(user.attributes);
-  //         // console.log('user', user.attributes);
-  //       })
-  //       .catch(err => console.log('profile err', err));
-  //   }, []);
-
-  // registered user
-  //   useEffect(() => {
-  //     Auth.currentUserInfo()
-  //       .then(user => {
-  //         console.log('user', user);
-  //       })
-  //       .catch(err => console.log(err));
-  //   }, []);
-
   useEffect(() => {
     setTimeout(() => {
       isUserSignedIn()
