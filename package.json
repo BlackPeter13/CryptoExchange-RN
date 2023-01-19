@@ -17,7 +17,7 @@
     "@react-native-community/datetimepicker": "^6.3.2",
     "@react-native-community/netinfo": "^9.3.0",
     "@react-native-picker/picker": "^2.4.4",
-    "@react-navigation/drawer": "^6.4.4",
+    "@react-navigation/drawer": "^6.5.6",
     "@react-navigation/native-stack": "^6.8.0",
     "expo": "~46.0.9",
     "expo-splash-screen": "~0.16.2",
